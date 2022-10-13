@@ -1,3 +1,3 @@
 # netflix_clone
 
-Netflix clone beutiful Ui with bloc state management
+Netflix clone beautiful Ui with bloc state management
