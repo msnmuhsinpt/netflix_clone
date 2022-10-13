@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/ui/dowloads/screen/downolads_screen.dart';
 
 import '../../film_list/screen/film_list_screen.dart';
 import '../../home/screen/home_screen.dart';
-import '../../profile/screen/profile_screen.dart';
 import '../../search/screen/search_screen.dart';
 import '../widget/bottom_navigation_widget.dart';
 
@@ -13,7 +13,7 @@ class MainScreen extends StatelessWidget {
     HomeScreen(),
     FilmListScreen(),
     SearchScreen(),
-    ProfileScreen(),
+     DownloadsScreen(),
   ];
 
   @override

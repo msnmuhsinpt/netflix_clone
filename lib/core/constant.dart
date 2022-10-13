@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 //images
 
 const icMainPoster = 'assets/images/ic_main_Image.jpg';
-
-
-
+const icPoster1 = 'assets/images/poster 1.jpg';
+const icPoster2 = 'assets/images/poster2.jpg';
+const icPoster3 = 'assets/images/poster3.jpg';
 
 //divider
-
-
 
 Widget dividerH() {
   return const SizedBox(height: 20);
@@ -39,8 +37,6 @@ double screenWidth(context) {
 double screenHeight(context) {
   return MediaQuery.of(context).size.height;
 }
-
-
 
 // padding size
 EdgeInsets commonPaddingAll = const EdgeInsets.all(10);

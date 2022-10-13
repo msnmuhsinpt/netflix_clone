@@ -32,7 +32,7 @@ class BottomNavigationWidget extends StatelessWidget {
               BottomNavigationBarItem(
                   icon: Icon(Icons.search_outlined), label: ''),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.account_circle_outlined), label: ''),
+                  icon: Icon(Icons.download_for_offline_outlined), label: ''),
             ]);
       },
     );

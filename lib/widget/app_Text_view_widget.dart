@@ -11,7 +11,7 @@ Widget appTextView(
       bool isBold = false}) {
   return Text(
     name,
-    textAlign: TextAlign.start,
+    textAlign: TextAlign.center,
     style: TextStyle(
         fontSize: size,
         fontWeight: isBold ? FontWeight.w600 : FontWeight.normal,

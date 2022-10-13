@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/widget/app_appBar.dart';
 
 import '../../../core/app_color.dart';
 import '../../../core/constant.dart';
@@ -20,7 +21,7 @@ class FilmListScreen extends StatelessWidget {
             preferredSize: const Size.fromHeight(80),
             child: AppBar(
               backgroundColor: bgColor,
-              title: appTextView(name: 'New & Hot', isBold: true, size: 25),
+              title: appTextView(name: 'News & Hot', isBold: true, size: 25),
               actions: [
                 const Icon(
                   Icons.cast,
@@ -62,11 +63,11 @@ class FilmListScreen extends StatelessWidget {
             ),
           ),
           body: TabBarView(
-            children: [
-              _comingSoonWidget(context),
-              _everyOnesWatchingWidget(),
-            ],
-          )),
+          children: [
+          _comingSoonWidget(context),
+      _everyOnesWatchingWidget(),
+      ],
+    )),
     );
   }
 
@@ -75,7 +76,7 @@ class FilmListScreen extends StatelessWidget {
       shrinkWrap: true,
       itemCount: 5,
       itemBuilder: (context, index) => const ComingSoonWidget(),
-     );
+    );
   }
 
   Widget _everyOnesWatchingWidget() {
